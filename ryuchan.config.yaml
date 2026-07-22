@@ -2,7 +2,7 @@ site:
   tab: KangBlog
   title: YiBlog
   description: 🌸 輕盈、優雅、純淨 —— 用文字與圖片記錄生活與創意
-  language: zh
+  language: zh-TW
   favicon: /images/uploads/1768829953621-6jgasw.jpg
   theme:
     light: garden
@@ -159,14 +159,14 @@ comments:
     category: General
     categoryId: DIC_kwDOPTM-mM4CtcFq
     mapping: pathname
-    lang: zh-CN
+    lang: zh-TW
     inputPosition: top
     reactionsEnabled: '1'
     emitMetadata: '0'
     loading: lazy
   waline:
     serverURL: https://your-waline-server
-    lang: zh-CN
+    lang: zh-TW
     emoji:
       - https://unpkg.com/@waline/emojis@1.1.0/weibo
       - https://unpkg.com/@waline/emojis@1.1.0/bilibili
