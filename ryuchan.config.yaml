@@ -1,0 +1,179 @@
+site: 
+  tab: KangBlog
+  title: YiBlog
+  description: 🌸 輕盈、優雅、純淨 —— 用文字與圖片記錄生活與創意
+  language: zh
+  favicon: /images/uploads/1768829953621-6jgasw.jpg
+  theme:
+    light: garden
+    dark: dracula
+    code: github-dark
+  date_format: ddd MMM DD YYYY
+  blog:
+    pageSize: 8
+  banner:
+    enableRandom: true
+    randomUrl: https://t.alcy.cc/lai
+    randomCount: 5
+    height: 60vh
+    images:
+      - https://tc.alcy.cc/q/20250908/b2d656670551cb9ea6eda7b46b6c8ec0.webp
+  icp: 萌ICP備20040920號
+  icp_link: https://icp.gov.moe/?keyword=20040920
+  pages:
+    home:
+      title: Spencer's Blog
+      subtitle: 欲買桂花同載酒，終不似，少年遊！
+      typewriterTexts:
+        - 🌸 欲買桂花同載酒，終不似，少年遊！
+        - 🌸 花有重開日，人無再少年！
+        - 🌿 記錄生活的點滴，分享美好的瞬間！
+        - 📚 紙上得來終覺淺，絕知此事要躬行！
+    friend:
+      title: 友人帳
+      subtitle: 記錄那些珍貴的友誼，分享彼此的故事
+    about:
+      title: About Me
+      subtitle: 一個熱愛生活與技術的普通人！
+    navigation:
+      title: 網站導航
+      subtitle: 收藏的常用網站和工具連結
+    anime:
+      title: 追番
+      subtitle: 記錄和分享我喜歡的動漫作品
+    project:
+      title: Projects
+      subtitle: 展示一些個人搭建的項目，搬運工！
+    music:
+      title: Cloud Music
+      subtitle: 沉浸式享受音樂時光
+  menu:
+    - id: home
+      text: 首頁
+      href: /
+      svg: material-symbols:home-outline-rounded
+      target: _self
+    - id: write
+      text: 寫作
+      href: /write
+      svg: material-symbols:edit-square-outline-rounded
+      target: _self
+    - id: navigation
+      text: 導航
+      href: /navigation
+      svg: material-symbols:explore-outline
+      target: _self
+    - id: entertainment
+      text: 娛樂
+      href: “#”
+      svg: material-symbols:play-circle-outline-rounded
+      target: _self
+      subItems:
+        - id: anime
+          text: 影視
+          href: /anime
+          svg: material-symbols:movie-outline
+          target: _self
+        - id: music
+          text: 音樂
+          href: /music
+          svg: material-symbols:music-note-rounded
+          target: _self
+    - id: project
+      text: 項目
+      href: /project
+      svg: material-symbols:code-blocks-outline
+      target: _self
+    - id: friend
+      text: 友人帳
+      href: /friend
+      svg: material-symbols:supervisor-account-outline-rounded
+      target: _self
+    - id: about
+      text: 關於
+      href: /about
+      svg: material-symbols:info-outline-rounded
+      target: _self
+
+anime:
+  bilibili:
+    uid: '361813534'
+  tmdb:
+    apiKey: c06994e9e33158fdac8dfda5befad851
+    listId: '8556173'
+
+github:
+  owner: kobaridev
+  repo: RyuChan
+  branch: main
+  appId: 在部署端配置環境變數
+  encryptKey: wudishiduomejimo
+
+umami:
+  enable: true
+  baseUrl: https://umami.131714.xyz
+  shareId: jToXL5Z3hnA1gKUw
+  websiteId: 3f9afc6c-f0bd-4734-be15-6d053960d34d
+  timezone: Asia/Shanghai
+
+user:
+  name: Kang
+  description: Ciallo～(∠・ω<)⌒★
+  site: https://kangblog.vercel.app/
+  avatar: /images/uploads/1768743022858-lxc4pg.jpg
+  sidebar:
+    social:
+      - href: https://github.com/SpencerKK920
+        ariaLabel: Github
+        title: Github
+        svg: ri:github-line
+      - href: https://space.bilibili.com/361813534
+        ariaLabel: BiliBili
+        title: BiliBili
+        svg: ri:bilibili-line
+  footer:
+    social:
+      - href: https://github.com/kobaridev
+        ariaLabel: Github
+        title: Github
+        svg: ri:github-line
+      - href: https://space.bilibili.com/1536411565
+        ariaLabel: BiliBili
+        title: BiliBili
+        svg: ri:bilibili-line
+      - href: https://x.com/xzz_ya
+        ariaLabel: X(twitter)
+        title: X(twitter)
+        svg: ri:twitter-line
+      - href: https://t.me/xzz_ya
+        ariaLabel: Telegram
+        title: Telegram
+        svg: ri:telegram-line
+
+comments:
+  enable: true
+  type: giscus
+  giscus:
+    repo: kobaridev/gsc
+    repoId: R_kgDOPTM-mA
+    category: General
+    categoryId: DIC_kwDOPTM-mM4CtcFq
+    mapping: pathname
+    lang: zh-CN
+    inputPosition: top
+    reactionsEnabled: '1'
+    emitMetadata: '0'
+    loading: lazy
+  waline:
+    serverURL: https://your-waline-server
+    lang: zh-CN
+    emoji:
+      - https://unpkg.com/@waline/emojis@1.1.0/weibo
+      - https://unpkg.com/@waline/emojis@1.1.0/bilibili
+    meta:
+      - nick
+      - mail
+      - link
+    requiredMeta: []
+    reaction: false
+    pageview: false
